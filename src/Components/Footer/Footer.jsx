@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center py-12'>
             <div>©2023 Discoverly. All rights reserved.</div>
             <div className='flex justify-end items-center gap-2'>
                 <Image className='opacity-60 cursor-pointer' src='/1.png' width={15} height={15} alt=''></Image>
