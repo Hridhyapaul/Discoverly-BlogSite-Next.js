@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link href="/" className='text-lg font-semibold'>Discoverly</Link>
             <div className={styles.navbar}>
                 {links.map(link => (
-                    <Link href={link.url} key={link.id}>{link.title}</Link>
+                    <Link href={link.url} key={link.id} className='font-semibold'>{link.title}</Link>
                 ))}
 
                 <button className='px-[10px] py-1 rounded-md text-black font-semibold bg-[#53c28b]'>
