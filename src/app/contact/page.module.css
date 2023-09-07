@@ -1,4 +1,6 @@
-.container {}
+.container {
+    margin: 25px 0;
+}
 
 .title {
     font-size: 60px;
