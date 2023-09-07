@@ -18,9 +18,9 @@ const Contact = () => {
                     </Image>
                 </div>
                 <form className={styles.form}>
-                    <input type="text" placeholder='name' className={styles.input} />
-                    <input type="email" placeholder='email' className={styles.input} />
-                    <textarea className={styles.textArea} placeholder='message' cols="30" rows="10"></textarea>
+                    <input type="text" placeholder='Name' className={styles.input} />
+                    <input type="email" placeholder='Email' className={styles.input} />
+                    <textarea className={styles.textArea} placeholder='Message' cols="30" rows="10"></textarea>
                     <Button url="/" text="Send"></Button>
                 </form>
             </div>
