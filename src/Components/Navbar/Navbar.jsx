@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import styles from './Navbar.module.css';
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 const Navbar = () => {
 
@@ -38,9 +38,15 @@ const Navbar = () => {
     ];
 
     return (
-        <div className='flex justify-between py-6'>
-            <Link href="/" className='text-lg font-semibold'>Discoverly</Link>
-            <div className={styles.navbar}>
+        <div className='flex justify-between py-6 h-[100px]'>
+            <Link 
+            href="/" 
+            className='text-lg font-semibold'
+            >
+                Discoverly
+            </Link>
+            <div className="flex items-center gap-[20px]">
+                <DarkModeToggle></DarkModeToggle>
                 {links.map(link => (
                     <Link href={link.url} key={link.id} className='font-semibold'>{link.title}</Link>
                 ))}
