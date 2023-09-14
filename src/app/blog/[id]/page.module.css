@@ -2,6 +2,7 @@
 
 .top {
     display: flex;
+    gap: 20px;
 }
 
 .info {
@@ -9,7 +10,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 10px;
 }
 
 .title {
@@ -42,6 +42,7 @@
 }
 
 .image {
+    height: 400px;
     object-fit: cover;
 }
 

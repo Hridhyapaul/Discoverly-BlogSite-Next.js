@@ -7,11 +7,19 @@
     margin-bottom: 50px;
 }
 
-.image {
-    object-fit: cover;
+.imageContainer{
+    width:30% ;
 }
 
-.content {}
+.image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.content {
+    width: 70%;
+}
 
 .title {
     margin-bottom: 10px;
